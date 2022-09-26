@@ -1,0 +1,27 @@
+section {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+
+  bf-icon:first-of-type {
+    height: 80px;
+  }
+
+  h1 {
+    font-size: 62px;
+    font-weight: bold;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  ul {
+    margin-top: 30vh;
+    display: flex;
+    gap: 20px;
+  }
+}
