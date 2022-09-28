@@ -1,0 +1,42 @@
+.construction {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+
+  bf-icon:first-of-type {
+    height: 80px;
+  }
+
+  h1 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  p {
+    text-align: center;
+
+    br {
+      display: none;
+    }
+  }
+
+  ul {
+    margin-top: 30vh;
+    display: flex;
+    gap: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .construction {
+    h1 {
+      font-size: 62px;
+    }
+    p > br {
+      display: block;
+    }
+  }
+}
