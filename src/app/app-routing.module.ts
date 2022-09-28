@@ -7,8 +7,16 @@ import { TermsComponent } from './pages/terms/terms.component';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: '/construction',
+    component: ConstructionComponent,
   },
+  // {
+  //   path: '/',
+  //   redirectTo: '/construction',
+  // },
+  // {
+  //   path: '**',
+  //   redirectTo: '/construction',
+  // },
   {
     path: 'construction',
     component: ConstructionComponent,
@@ -20,10 +28,6 @@ const routes: Routes = [
   {
     path: 'terms',
     component: TermsComponent,
-  },
-  {
-    path: '**',
-    redirectTo: '/construction',
   },
 ];
 

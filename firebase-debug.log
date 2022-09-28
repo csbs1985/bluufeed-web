@@ -1,0 +1,14 @@
+[debug] [2022-09-28T12:44:25.060Z] ----------------------------------------------------------------------
+[debug] [2022-09-28T12:44:25.062Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\csbsc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-09-28T12:44:25.063Z] CLI Version:   11.9.0
+[debug] [2022-09-28T12:44:25.063Z] Platform:      win32
+[debug] [2022-09-28T12:44:25.063Z] Node Version:  v16.16.0
+[debug] [2022-09-28T12:44:25.064Z] Time:          Wed Sep 28 2022 09:44:25 GMT-0300 (Horário Padrão de Brasília)
+[debug] [2022-09-28T12:44:25.064Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-09-28T12:44:25.114Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-09-28T12:44:25.114Z] > authorizing via signed-in user (csbs.conta@gmail.com)
+[debug] [2022-09-28T12:44:25.114Z] [iam] checking project bluufeed-web for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-09-28T12:44:25.116Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/bluufeed-web:testIamPermissions [none]
+[debug] [2022-09-28T12:44:25.116Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/bluufeed-web:testIamPermissions x-goog-quota-user=projects/bluufeed-web
+[debug] [2022-09-28T12:44:25.116Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/bluufeed-web:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
